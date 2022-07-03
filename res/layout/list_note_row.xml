@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_row_selector" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/title" android:textColor="@color/dark_grey" android:id="@id/note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" />
+    <TextView android:textSize="@dimen/date" android:textColor="@color/genre" android:gravity="right" android:id="@id/added" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="added" android:layout_below="@id/note" />
+</RelativeLayout>

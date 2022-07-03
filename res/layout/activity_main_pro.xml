@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/jarvisTheme" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/background_mk3" android:scaleType="centerCrop" />
+    <TextView android:textSize="10.0sp" android:id="@id/modeStatus" android:background="@color/white" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quite Mode Active" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/notice" android:background="@color/theme" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Hello! Thank you for trying out Jarvis" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/speechProgress" android:background="@drawable/circle" android:visibility="gone" android:layout_width="@dimen/reactor_width_spread" android:layout_height="@dimen/reactor_width_spread" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tapArcReactor" android:layout_width="@dimen/reactor_width" android:layout_height="@dimen/reactor_height" android:layout_marginBottom="@dimen/reactor_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/btnSpeak" android:background="@drawable/ic_reactor" android:visibility="gone" android:layout_width="@dimen/reactor_width" android:layout_height="@dimen/reactor_height" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:id="@id/txtSpeechInput" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Welcome Sir!" android:layout_above="@id/tapArcReactor" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/panelMediaControl" android:background="@drawable/abc_menu_dropdown_panel_holo_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
+        <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/mediaPanelTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Now playing ..." android:lines="1" android:scrollHorizontally="true" android:maxLength="60" android:marqueeRepeatLimit="marquee_forever" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/mediaPanelPrev" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@android:drawable/ic_media_previous" />
+            <ImageButton android:id="@id/mediaPanelPlay" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@android:drawable/ic_media_play" />
+            <ImageButton android:id="@id/mediaPanelNext" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_media_next" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

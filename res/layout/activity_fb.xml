@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/light_grey" android:id="@id/lblDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="Your content will be shared to Facebook with a &quot;via Jarvis&quot; tag! How cool is that!" android:layout_alignParentTop="true" />
+    <EditText android:id="@id/txtPostContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:hint="What do you want to share ?" android:singleLine="false" android:layout_below="@id/lblDescription" android:inputType="textLongMessage|textCapSentences|textMultiLine" />
+    <TextView android:textColor="@color/light_grey" android:gravity="center" android:id="@id/lblNotice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="Please connect Jarvis with your Facebook account" android:layout_centerInParent="true" android:textAlignment="center" />
+    <Button android:id="@id/btnShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="Share via Jarvis" android:layout_below="@id/txtPostContent" android:layout_alignParentRight="true" />
+    <com.facebook.widget.LoginButton android:id="@id/authButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+</RelativeLayout>

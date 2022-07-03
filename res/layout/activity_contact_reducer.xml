@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:layout_gravity="top" android:background="#c0ffffff" android:paddingLeft="@dimen/pr_activity_horizontal_margin" android:paddingTop="@dimen/pr_activity_vertical_margin" android:paddingRight="@dimen/pr_activity_horizontal_margin" android:paddingBottom="@dimen/pr_activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:background="@drawable/abc_menu_dropdown_panel_holo_light" android:animationCache="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <RelativeLayout android:orientation="vertical" android:id="@id/wrapper" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_alignParentLeft="true" android:animateLayoutChanges="true">
+            <TextView android:textSize="25.0dip" android:textStyle="bold" android:textColor="@color/light_grey" android:orientation="horizontal" android:id="@id/lblLogoText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Select the contact" />
+            <TextView android:id="@id/lblStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Action will go here" android:layout_below="@id/lblLogoText" />
+            <ListView android:id="@id/lstContacts" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="50.0dip" android:layout_below="@id/lblStatus" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

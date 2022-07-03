@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:layout_gravity="top" android:background="#c0ffffff" android:paddingLeft="@dimen/pr_activity_horizontal_margin" android:paddingTop="@dimen/pr_activity_vertical_margin" android:paddingRight="@dimen/pr_activity_horizontal_margin" android:paddingBottom="@dimen/pr_activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:background="@drawable/abc_menu_dropdown_panel_holo_light" android:animationCache="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <RelativeLayout android:orientation="vertical" android:id="@id/wrapper" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_alignParentLeft="true" android:animateLayoutChanges="true">
+            <TextView android:textSize="25.0dip" android:textStyle="bold" android:textColor="@color/light_grey" android:id="@id/lblLogoText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="Weather" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/panelTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:layout_below="@id/lblLogoText">
+                <TextView android:textSize="60.0dip" android:id="@id/lblTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" />
+                <TextView android:textSize="25.0dip" android:id="@id/lblUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="-" android:layout_toRightOf="@id/lblTemp" />
+            </RelativeLayout>
+            <TextView android:id="@id/lblLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="" android:layout_below="@id/panelTemp" />
+            <ImageView android:id="@id/weatherImage" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_margin="10.0dip" android:src="@drawable/dunno" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/panelCenter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lblLocation" android:layout_alignParentLeft="true">
+                <TextView android:textSize="18.0sp" android:textColor="@color/year" android:id="@id/lblStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_pad_margin" android:text="@string/weatherExpected" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
