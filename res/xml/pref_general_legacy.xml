@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_voice_notif" android:key="enable_voice" android:summary="@string/pref_description_voice_notif" android:defaultValue="true" />
+    <ListPreference android:entries="@array/pref_speech_list" android:title="@string/pref_speech_source" android:key="speech_alternate" android:defaultValue="auto" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_speech_list_values" />
+    <CheckBoxPreference android:title="@string/pref_title_taunt" android:key="enable_taunt" android:summary="@string/pref_description_taunt" android:dependency="enable_voice" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_office_mode" android:key="enable_office_mode" android:summary="@string/pref_description_office_mode" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_title_night_mode" android:key="enable_night_mode" android:summary="@string/pref_description_night_mode" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_gender_list" android:title="@string/pref_gender_address" android:key="male" android:defaultValue="1" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_gender_list_values" />
+    <CheckBoxPreference android:title="@string/pref_title_bluetooth" android:key="enable_bluetooth" android:summary="@string/pref_description_bluetooth" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_title_background" android:key="enable_wallpaper" android:summary="@string/pref_description_background" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_theme_list" android:title="@string/pref_theme" android:key="mark_theme" android:defaultValue="3" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_theme_list_values" />
+    <PreferenceCategory android:title="@string/pref_title_music" />
+    <ListPreference android:entries="@array/pref_player_list" android:title="@string/pref_music_player" android:key="music_source" android:defaultValue="1" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_player_list_values" />
+    <PreferenceCategory android:title="@string/pref_title_notifications" />
+    <PreferenceScreen android:title="@string/pref_title_manage_notif" android:key="pref_second_preferencescreen_key" android:summary="@string/pref_description_manage_notif"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference android:title="@string/pref_title_weather_notif" android:key="enable_weather" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_news_notif" android:key="enable_news" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_call_notif" android:key="enable_call" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_missed_notif" android:key="enable_missed" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_title_sms_notif" android:key="enable_sms" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_battery_notif" android:key="enable_battery" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/pref_title_wear" />
+    <PreferenceScreen android:title="@string/pref_title_jarvis_wear" android:key="pref_jwear_screen" android:summary="@string/pref_description_manage_jwear"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference android:title="Persistent notification" android:key="jwear_persistent" android:summary="@string/pref_description_persistent_jwear" android:defaultValue="false" />
+        <CheckBoxPreference android:title="New updates" android:key="jwear_news" android:summary="@string/pref_description_jwear_news_notif" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/pref_title_reminder" />
+    <PreferenceScreen android:title="@string/pref_title_pr" android:key="pref_pr_screen" android:summary="@string/pref_description_pr"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference android:title="@string/pref_title_enabled" android:key="enable_people_reminder" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_title_auto_delete" android:key="auto_delete" android:summary="@string/pref_description_auto_delete" android:defaultValue="false" />
+        <ListPreference android:entries="@array/pref_list_display_position" android:title="@string/pref_title_display_position" android:key="display_position" android:defaultValue="2" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_list_display_position_values" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/pref_title_weather_notif" />
+    <CheckBoxPreference android:title="@string/pref_title_enable" android:key="enable_weather" android:summary="@string/pref_description_weather_notif" android:defaultValue="true" />
+    <ListPreference android:entries="@array/pref_weather_units_list" android:title="@string/pref_title_weather_unit" android:key="weather_unit" android:defaultValue="imperial" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_weather_units_values" />
+    <EditTextPreference android:singleLine="true" android:selectAllOnFocus="true" android:title="Location" android:key="weather_loc" />
+    <PreferenceCategory android:title="@string/pref_title_news_notif" />
+    <CheckBoxPreference android:title="@string/pref_title_enable" android:key="enable_news" android:summary="@string/pref_description_news_notif" android:defaultValue="true" />
+</PreferenceScreen>

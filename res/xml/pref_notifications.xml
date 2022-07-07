@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_weather_notif" android:key="enable_weather" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_news_notif" android:key="enable_news" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_call_notif" android:key="enable_call" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_missed_notif" android:key="enable_missed" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_sms_notif" android:key="enable_sms" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_battery_notif" android:key="enable_battery" android:defaultValue="true" />
+</PreferenceScreen>

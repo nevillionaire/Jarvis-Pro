@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Persistent notification" android:key="jwear_persistent" android:summary="@string/pref_description_persistent_jwear" android:defaultValue="false" />
+    <CheckBoxPreference android:title="New updates" android:key="jwear_news" android:summary="@string/pref_description_jwear_news_notif" android:defaultValue="true" />
+</PreferenceScreen>

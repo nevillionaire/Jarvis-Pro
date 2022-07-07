@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_enabled" android:key="enable_people_reminder" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_auto_delete" android:key="auto_delete" android:summary="@string/pref_description_auto_delete" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_list_display_position" android:title="@string/pref_title_display_position" android:key="display_position" android:defaultValue="2" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_list_display_position_values" />
+</PreferenceScreen>
