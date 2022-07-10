@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_gender_list">
+        <item>Sir</item>
+        <item>Mam</item>
+    </string-array>
+    <string-array name="pref_gender_list_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_list_activation_sensitivity">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="pref_list_activation_sensitivity_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_list_activation_type">
+        <item>Wrist Double Flick (Beta)</item>
+    </string-array>
+    <string-array name="pref_list_activation_type_values">
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_list_display_position">
+        <item>Top</item>
+        <item>Middle</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="pref_list_display_position_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_news_list">
+        <item>World News</item>
+        <item>Sports</item>
+        <item>Business</item>
+        <item>Technology</item>
+        <item>Movies</item>
+    </string-array>
+    <string-array name="pref_news_list_values">
+        <item>World</item>
+        <item>Sports</item>
+        <item>Business</item>
+        <item>Technology</item>
+        <item>Movies</item>
+    </string-array>
+    <string-array name="pref_player_list">
+        <item>3rd party</item>
+        <item>Jarvis</item>
+    </string-array>
+    <string-array name="pref_player_list_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_speech_list">
+        <item>Auto</item>
+        <item>Speech prompt</item>
+        <item>Speech service</item>
+    </string-array>
+    <string-array name="pref_speech_list_values">
+        <item>auto</item>
+        <item>prompt</item>
+        <item>service</item>
+    </string-array>
+    <string-array name="pref_theme_list">
+        <item>Mark I</item>
+        <item>Mark II</item>
+        <item>Mark III</item>
+    </string-array>
+    <string-array name="pref_theme_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_weather_units_list">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="pref_weather_units_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+</resources>

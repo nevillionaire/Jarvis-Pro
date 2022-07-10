@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="bg_gradient">false</item>
+    <item type="drawable" name="common_signin_btn_icon_dark">false</item>
+    <item type="drawable" name="common_signin_btn_icon_light">false</item>
+    <item type="drawable" name="common_signin_btn_text_dark">false</item>
+    <item type="drawable" name="common_signin_btn_text_light">false</item>
+    <item type="drawable" name="w01d">false</item>
+    <item type="drawable" name="w01n">false</item>
+    <item type="drawable" name="w02d">false</item>
+    <item type="drawable" name="w02n">false</item>
+    <item type="drawable" name="w03d">false</item>
+    <item type="drawable" name="w03n">false</item>
+    <item type="drawable" name="w04d">false</item>
+    <item type="drawable" name="w04n">false</item>
+    <item type="drawable" name="w09d">false</item>
+    <item type="drawable" name="w09n">false</item>
+    <item type="drawable" name="w10d">false</item>
+    <item type="drawable" name="w10n">false</item>
+    <item type="drawable" name="w11d">false</item>
+    <item type="drawable" name="w11n">false</item>
+    <item type="drawable" name="w13d">false</item>
+    <item type="drawable" name="w13n">false</item>
+    <item type="drawable" name="w50d">false</item>
+    <item type="drawable" name="w50n">false</item>
+    <item type="drawable" name="com_facebook_picker_default_separator_color">#33464c59</item>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="raw" name="best_you_can_do">false</item>
+    <item type="raw" name="goodday_mam">false</item>
+    <item type="raw" name="goodnight_mam">false</item>
+    <item type="raw" name="goodrest_mam">false</item>
+    <item type="raw" name="i_need_sleep_mam">false</item>
+    <item type="raw" name="jam_mam">false</item>
+    <item type="raw" name="lost_connectivity">false</item>
+    <item type="raw" name="seize_mam">false</item>
+    <item type="raw" name="something_troubling_mam">false</item>
+    <item type="raw" name="which_contact_mam">false</item>
+</resources>

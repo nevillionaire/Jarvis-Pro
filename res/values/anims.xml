@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="anim" name="blink">false</item>
+    <item type="anim" name="grow">false</item>
+    <item type="anim" name="process">false</item>
+    <item type="anim" name="slide_down_fade">false</item>
+</resources>
